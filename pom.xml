@@ -34,18 +34,18 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<!--<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>DESKTOP-7ED199M-releases</name>
-			<url>http://localhost:8081/artifactory/myrepo</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>DESKTOP-7ED199M-snapshots</name>
-			<url>http://localhost:8081/artifactory/myrepo</url>
-		</snapshotRepository>
-	</distributionManagement>-->
+	<distributionManagement>
+	    <repository>
+		<id>central</id>
+		<name>DESKTOP-2VROBOE-releases</name>
+		<url>http://localhost:8081/artifactory/MyEsmtRepo</url>
+	    </repository>
+	    <snapshotRepository>
+		<id>snapshots</id>
+		<name>DESKTOP-2VROBOE-snapshots</name>
+		<url>http://localhost:8081/artifactory/MyEsmtRepo</url>
+	    </snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
